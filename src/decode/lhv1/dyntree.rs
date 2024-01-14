@@ -11,7 +11,7 @@ pub struct DynHuffTree {
     groups: Groups,
 }
 
-const REORDER_LIMIT: u16 = 32 * 1024;
+const REORDER_LIMIT: u16 = 16 * 1024;
 const NUM_LEAVES: usize = 314;
 const NUM_NODES: usize = NUM_LEAVES * 2 - 1;
 
